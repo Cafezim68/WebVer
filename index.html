@@ -3,50 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Falta Pouco!! 🏎💨</title>
+    <title>Mods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="carro.css">
 </head>
 <body>
-    
-<header>
-    <h1>Olá Pessoal!!🖐</h1>
-    <h2>Esete formulario é so para eu ter um controle de quantas pessoas entram para baixar os mod.</h2>
-    <h4>Não é preciso responder com informações relevantes/verdadeiras</h4>
-</header>
+    <div class="container mt-4">
+        <!-- Barra de Pesquisa -->
+        <div class="mb-4">
+            <input type="text" id="searchInput" class="form-control" placeholder="Pesquisar veículo...">
+        </div>
 
-<br>
-<hr>
-<br>
-
-<div class="formulario">
-
-    <!-- Make sure you don't change the form action-->
-    <form action="https://api.staticforms.xyz/submit" method="post">
-        <!-- Replace with accessKey sent to your email -->
-        <input type="hidden" name="accessKey" value="cc4d21b1-2a5c-450c-ae8b-a95a1c902e3e"> <!-- Required -->
-        
-        <label for="message">Mensagem:</label>
-        <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..."></textarea> <!-- Optional -->
-        
-        <!-- If you want replyTo to be set to specific email -->
-        <label for="replyTo">Seu email:</label>
-        <input type="text" name="replyTo" id="replyTo" value="Email@example.com"> <!-- Optional -->
-        
-        <!-- Specify @ as reply to value if you want it to be customer's email -->
-        <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
-        
-        <!-- If you want form to redirect to a specific URL after submission -->
-        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/carros.html"> <!-- Optional -->
-        
-        <input type="submit" value="Enviar" />
-    </form>
-
+        <!-- Card Omega Brabo -->
+<div class="card mb-3 bg-dark text-light shadow-lg vehicle-card" data-title="Omega Brabo" onclick="handleCardClick('Omega Brabo', 'https://www.mediafire.com/file/8znmoj1jizzf1cp/Omega3.0DriftBYdexterMODS.zip/file');" style="cursor: pointer;">
+    <div class="pri">
+        <img src="img/Omega brabo thumb.jpg" class="card-img-top img-fluid" alt="Imagem do Omega Brabo">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Omega Brabo</h5>
+        <p class="card-text">Este é um card mais amplo com texto de apoio abaixo como uma introdução natural a conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+        <p class="card-text"><small class="text-body-secondary">Última atualização há 3 minutos</small></p>
+        <p class="click-count" id="omegaClicks">Cliques: 0</p> <!-- Contador de cliques -->
+        <a href="https://www.youtube.com/watch?v=dKl-GWI1xis" class="btn btn-warning">Ver mais</a>
+    </div>
 </div>
 
-<h2> Os mods não foram desenvolvidos por mim, apenas o site. 
-<br> O código do site está disponível no Github, então não é necessário se preocupar com isso.</h2>
+<!-- Card Civic Completo -->
+<div class="card bg-dark text-light shadow-lg vehicle-card" data-title="Civic Completo" onclick="handleCardClick('Civic Completo', 'https://www.mediafire.com/file/r757b4qa11762dr/BLACKBULL%28new+civic+esseih%29.rar');" style="cursor: pointer;">
+    <div class="seg">
+        <img src="img/civicão thumb.jpg" class="card-img-bottom img-fluid" alt="Imagem do Civic Completo">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Civic Completo</h5>
+        <p class="card-text">Este é um card mais amplo com texto de apoio abaixo como uma introdução natural a conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+        <p class="card-text"><small class="text-body-secondary">Última atualização há 3 minutos</small></p>
+        <p class="click-count" id="civicClicks">Cliques: 0</p> <!-- Contador de cliques -->
+        <a href="https://www.youtube.com/watch?v=SlhR41eGGA4&t=8s" class="btn btn-warning">Ver mais</a>
+    </div>
+</div>
 
-<h2>Para ver o Codigo do websit clique <a href="https://github.com/Cafezim68/WebVer" target="_blank">aqui</a> </h2>
+    </div>
 
+    <div class="le">
+    <h2> Os mods não foram desenvolvidos por mim, apenas o site. 
+        <br> O código do site está disponível no Github, então não é necessário se preocupar com isso.</h2>
+        
+        <h2>Para ver o Codigo do websit clique <a href="https://github.com/Cafezim68/WebVer" target="_blank">aqui.</a> </h2>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="carro.js"></script>
 </body>
 </html>

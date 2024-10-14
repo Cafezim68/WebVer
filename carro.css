@@ -61,3 +61,45 @@ img {
     background-color: #e69a3c;
     border-color: #e69a3c;
 }
+
+h1 {
+    font-size: 2.5em;
+    color: #FFD700; /* Cor dourada para destacar o título */
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #F0E68C; /* Cor amarelada suave */
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+h4 {
+    font-size: 1em;
+    color: #B0C4DE; /* Azul claro para detalhes */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #00BFFF; /* Azul vibrante para o link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1E90FF; /* Azul mais escuro ao passar o mouse */
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px; /* Espaçamento abaixo da linha */
+}
+
+.le {
+    text-align: center;
+    padding: 5%;
+}
